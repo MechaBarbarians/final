@@ -2,12 +2,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Palindrome Checker</title>
+
+   
  
     <link rel="stylesheet" href="main.css">
-    <script src="code.js"></script>
+    
 </head>
 <body>
+    <header>
+        <title>Palindrome Checker and Casino</title>
+        <h2 id="heading1"> To play Craps, press the Play Craps! button which will roll your two dice. If the result is = to 7 or 11, CRAPS You lose. If you get doubles of an even number you win! Reroll if you push.</h2>
+        <h3 id="heading"> To Play doubles, press the button to roll two dice, if both numbers are the same you win!</h3>
+        <h4>If you want to check if a word is a palindrome, type it in the box and press the button!</h4>
+        <button onclick="playCraps();">Play Craps!</button>
+        <button onclick="playDoubles();">Play Doubles!</button>
+        <p id= "crapsResults"> </p>
+        <p id= "DoublesResults"> </p>
+    </header>
+    <nav>
+        <h2>Navigation</h2>
+        <p> These buttons looked evil, but they are eating ice cream.</p>
+        <a href="first.html">Home</a><br>
+        <a href="strings.html">Strings Page</a> |<br>
+        <a href="Boards page.html">Boards</a> |<br>
+        <a href="game.html">Casino</a> |<br>
+        <a href="table.html">Table</a> |<br>
+       
+       
+    </nav>
+    <main>
     <h1>Naethaniel Peterson Palindrome Checker</h1>
     <img id="memeImage" src="meme.gif">
     <input id="palindromeField" type="text" value="defaultValue">
@@ -21,5 +44,24 @@
     <br>
     <button onclick= "userInfoValidation()">Validate Information!</button>
     <p id="userInfoResults"></p>
+    <audio id="backgroundAudio" controls autoplay muted preload="auto">
+        <source src="us-lab-background-1 (1).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</main>
+
+
+
+        <footer>
+      <p>Naethaniel Peterson</p> <br>
+      <p>University of Advancing Technologies, 2625 W Baseline Rd </p><br>
+      <p>Tempe, AZ 85283</p><br>
+      <p>Phone: (877)-240-9574</p><br>
+      <p><a href="https://www.uat.edu/">UAT.edu</a></p>
+    </footer> 
+    <script src="code.js"></script>
 </body>
+
+
 </html>
